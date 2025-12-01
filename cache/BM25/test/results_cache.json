@@ -1,0 +1,1976 @@
+{
+    "q001": [
+        "wu2021b_p5",
+        "ebert2024_p7",
+        "han2024_p16",
+        "han2024_p12",
+        "li2025b_p10"
+    ],
+    "q002": [
+        "amazon2023_p27",
+        "amazon2023_p18",
+        "amazon2023_p19",
+        "amazon2023_p26",
+        "amazon2023_p12"
+    ],
+    "q004": [
+        "amazon2023_p42",
+        "amazon2023_p41",
+        "amazon2023_p19",
+        "amazon2023_p38",
+        "amazon2023_p43"
+    ],
+    "q005": [
+        "morrison2025_p6",
+        "morrison2025_p4",
+        "luccioni2023_p4",
+        "luccioni2024_p5",
+        "patterson2021_p22"
+    ],
+    "q006": [
+        "li2025a_p4",
+        "li2025a_p1",
+        "cottier2024_p1",
+        "li2025a_p5",
+        "xia2024_p1"
+    ],
+    "q007": [
+        "patterson2021_p3",
+        "patterson2021_p22",
+        "patterson2021_p18",
+        "patterson2021_p13",
+        "patterson2021_p15"
+    ],
+    "q008": [
+        "li2025a_p5",
+        "li2025a_p7",
+        "li2025a_p6",
+        "li2025a_p1",
+        "li2025a_p2"
+    ],
+    "q010": [
+        "wu2021b_p2",
+        "wu2021b_p8",
+        "dodge2022_p6",
+        "cottier2024_p18",
+        "samsi2024_p3"
+    ],
+    "q011": [
+        "patterson2021_p18",
+        "luccioni2023_p11",
+        "patterson2021_p6",
+        "li2025a_p4",
+        "dodge2022_p7"
+    ],
+    "q012": [
+        "morrison2025_p16",
+        "morrison2025_p5",
+        "morrison2025_p8",
+        "rubei2025_p5",
+        "chung2025_p7"
+    ],
+    "q013": [
+        "han2024_p5",
+        "han2024_p27",
+        "han2024_p26",
+        "han2024_p6",
+        "han2024_p12"
+    ],
+    "q014": [
+        "li2025a_p1",
+        "li2025a_p3",
+        "li2025a_p2",
+        "li2025a_p6",
+        "li2025a_p4"
+    ],
+    "q015": [
+        "han2024_p10",
+        "han2024_p2",
+        "han2024_p7",
+        "han2024_p6",
+        "han2024_p27"
+    ],
+    "q016": [
+        "dodge2022_p7",
+        "dodge2022_p12",
+        "dodge2022_p11",
+        "dodge2022_p8",
+        "morrison2025_p3"
+    ],
+    "q017": [
+        "morrison2025_p5",
+        "chung2025_p6",
+        "jegham2025_p4",
+        "luccioni2024_p6",
+        "luccioni2024_p12"
+    ],
+    "q018": [
+        "stone2022_p1",
+        "stone2022_p4",
+        "stone2022_p3",
+        "stone2022_p50",
+        "stone2022_p2"
+    ],
+    "q019": [
+        "luccioni2025a_p11",
+        "luccioni2025a_p13",
+        "luccioni2025a_p3",
+        "han2024_p23",
+        "luccioni2025b_p9"
+    ],
+    "q020": [
+        "luccioni2024_p12",
+        "morrison2025_p3",
+        "cottier2024_p17",
+        "cottier2024_p15",
+        "luccioni2024_p3"
+    ],
+    "q021": [
+        "patterson2021_p6",
+        "patterson2021_p5",
+        "patterson2021_p1",
+        "wu2021a_p4",
+        "li2025a_p3"
+    ],
+    "q022": [
+        "xia2024_p2",
+        "shen2024_p6",
+        "shen2024_p1",
+        "xia2024_p7",
+        "shen2024_p2"
+    ],
+    "q023": [
+        "xia2024_p4",
+        "xia2024_p9",
+        "xia2024_p3",
+        "xia2024_p13",
+        "xia2024_p5"
+    ],
+    "q024": [
+        "li2025a_p5",
+        "li2025a_p4",
+        "li2025a_p2",
+        "li2025a_p7",
+        "li2025a_p3"
+    ],
+    "q025": [
+        "khan2025_p4",
+        "samsi2024_p3",
+        "khan2025_p3",
+        "khan2025_p5",
+        "jegham2025_p16"
+    ],
+    "q026": [
+        "luccioni2024_p1",
+        "luccioni2024_p13",
+        "luccioni2024_p15",
+        "luccioni2024_p5",
+        "zschache2025_p4"
+    ],
+    "q027": [
+        "wu2021a_p7",
+        "samsi2024_p8",
+        "wu2021a_p3",
+        "luccioni2023_p1",
+        "wu2021a_p5"
+    ],
+    "q028": [
+        "cottier2024_p4",
+        "cottier2024_p16",
+        "morrison2025_p6",
+        "cottier2024_p1",
+        "cottier2024_p7"
+    ],
+    "q029": [
+        "dodge2022_p7",
+        "dodge2022_p11",
+        "li2025b_p5",
+        "morrison2025_p7",
+        "dodge2022_p12"
+    ],
+    "q030": [
+        "luccioni2025a_p1",
+        "luccioni2025a_p2",
+        "luccioni2025a_p10",
+        "luccioni2025a_p9",
+        "luccioni2025a_p7"
+    ],
+    "q031": [
+        "li2025b_p1",
+        "li2025b_p10",
+        "li2025b_p2",
+        "li2025b_p4",
+        "li2025b_p3"
+    ],
+    "q032": [
+        "schwartz2019_p2",
+        "schwartz2019_p1",
+        "schwartz2019_p3",
+        "schwartz2019_p7",
+        "luccioni2025a_p10"
+    ],
+    "q033": [
+        "li2025a_p3",
+        "li2025a_p1",
+        "li2025a_p2",
+        "li2025a_p7",
+        "li2025a_p5"
+    ],
+    "q034": [
+        "wu2021a_p3",
+        "wu2021a_p6",
+        "wu2021a_p2",
+        "wu2021a_p5",
+        "wu2021a_p4"
+    ],
+    "q035": [
+        "jegham2025_p1",
+        "li2025b_p5",
+        "patterson2021_p7",
+        "patterson2021_p5",
+        "luccioni2023_p11"
+    ],
+    "q036": [
+        "luccioni2025c_p2",
+        "zschache2025_p3",
+        "luccioni2024_p14",
+        "jegham2025_p2",
+        "luccioni2025c_p6"
+    ],
+    "q037": [
+        "xia2024_p4",
+        "xia2024_p9",
+        "xia2024_p3",
+        "xia2024_p10",
+        "xia2024_p1"
+    ],
+    "q038": [
+        "shen2024_p6",
+        "shen2024_p1",
+        "xia2024_p2",
+        "xia2024_p7",
+        "shen2024_p2"
+    ],
+    "q039": [
+        "schwartz2019_p1",
+        "samsi2024_p1",
+        "strubell2019_p2",
+        "strubell2019_p1",
+        "erben2023_p11"
+    ],
+    "q040": [
+        "wu2021b_p6",
+        "wu2021b_p15",
+        "dodge2022_p10",
+        "luccioni2023_p1",
+        "luccioni2023_p4"
+    ],
+    "q041": [
+        "amazon2023_p26",
+        "amazon2023_p12",
+        "amazon2023_p13",
+        "amazon2023_p19",
+        "amazon2023_p7"
+    ],
+    "q042": [
+        "ebert2024_p11",
+        "luccioni2025a_p11",
+        "luccioni2025b_p19",
+        "stone2022_p50",
+        "stone2022_p4"
+    ],
+    "q043": [
+        "luccioni2025c_p4",
+        "luccioni2023_p2",
+        "wu2021a_p2",
+        "luccioni2025b_p4",
+        "luccioni2025c_p2"
+    ],
+    "q044": [
+        "chung2025_p9",
+        "chung2025_p25",
+        "fernandez2025_p6",
+        "rubei2025_p5",
+        "morrison2025_p7"
+    ],
+    "q045": [
+        "xia2024_p4",
+        "xia2024_p9",
+        "xia2024_p3",
+        "xia2024_p1",
+        "xia2024_p8"
+    ],
+    "q046": [
+        "amazon2023_p27",
+        "amazon2023_p26",
+        "amazon2023_p24",
+        "amazon2023_p12",
+        "amazon2023_p28"
+    ],
+    "q047": [
+        "jegham2025_p11",
+        "jegham2025_p9",
+        "jegham2025_p10",
+        "jegham2025_p2",
+        "jegham2025_p1"
+    ],
+    "q048": [
+        "fernandez2025_p1",
+        "han2024_p1",
+        "morrison2025_p8",
+        "jegham2025_p13",
+        "fernandez2025_p9"
+    ],
+    "q049": [
+        "ebert2024_p2",
+        "ebert2024_p12",
+        "li2025b_p4",
+        "ebert2024_p3",
+        "ebert2024_p7"
+    ],
+    "q050": [
+        "shen2024_p1",
+        "shen2024_p2",
+        "fernandez2025_p2",
+        "xia2024_p2",
+        "samsi2024_p4"
+    ],
+    "q051": [
+        "luccioni2025c_p11",
+        "morrison2025_p3",
+        "luccioni2025c_p4",
+        "morrison2025_p7",
+        "samsi2024_p2"
+    ],
+    "q052": [
+        "amazon2023_p17",
+        "amazon2023_p6",
+        "amazon2023_p16",
+        "amazon2023_p13",
+        "amazon2023_p9"
+    ],
+    "q053": [
+        "morrison2025_p3",
+        "khan2025_p2",
+        "han2024_p2",
+        "ebert2024_p2",
+        "jegham2025_p3"
+    ],
+    "q055": [
+        "jegham2025_p8",
+        "jegham2025_p1",
+        "jegham2025_p9",
+        "jegham2025_p4",
+        "jegham2025_p10"
+    ],
+    "q056": [
+        "stone2022_p50",
+        "stone2022_p4",
+        "stone2022_p51",
+        "stone2022_p12",
+        "stone2022_p1"
+    ],
+    "q057": [
+        "li2025b_p10",
+        "li2025b_p1",
+        "ebert2024_p3",
+        "li2025b_p4",
+        "li2025b_p2"
+    ],
+    "q058": [
+        "wu2021b_p7",
+        "wu2021b_p4",
+        "amazon2023_p27",
+        "patterson2021_p13",
+        "amazon2023_p6"
+    ],
+    "q059": [
+        "samsi2024_p6",
+        "samsi2024_p7",
+        "samsi2024_p5",
+        "samsi2024_p4",
+        "samsi2024_p8"
+    ],
+    "q060": [
+        "wu2021a_p6",
+        "wu2021a_p5",
+        "wu2021a_p2",
+        "wu2021a_p10",
+        "wu2021a_p4"
+    ],
+    "q061": [
+        "morrison2025_p2",
+        "khan2025_p2",
+        "luccioni2025c_p6",
+        "luccioni2025c_p5",
+        "luccioni2025a_p7"
+    ],
+    "q063": [
+        "patterson2021_p1",
+        "patterson2021_p5",
+        "wu2021a_p2",
+        "zschache2025_p1",
+        "jegham2025_p14"
+    ],
+    "q064": [
+        "schwartz2019_p4",
+        "cottier2024_p13",
+        "cottier2024_p3",
+        "cottier2024_p16",
+        "strubell2019_p3"
+    ],
+    "q065": [
+        "xia2024_p4",
+        "xia2024_p9",
+        "xia2024_p3",
+        "xia2024_p13",
+        "xia2024_p5"
+    ],
+    "q066": [
+        "luccioni2024_p10",
+        "luccioni2024_p12",
+        "jegham2025_p10",
+        "li2025b_p10",
+        "patterson2021_p5"
+    ],
+    "q067": [
+        "ebert2024_p2",
+        "li2025b_p4",
+        "ebert2024_p7",
+        "ebert2024_p3",
+        "han2024_p28"
+    ],
+    "q068": [
+        "jegham2025_p4",
+        "dodge2022_p3",
+        "amazon2023_p26",
+        "morrison2025_p1",
+        "fernandez2025_p1"
+    ],
+    "q069": [
+        "cottier2024_p7",
+        "cottier2024_p2",
+        "cottier2024_p9",
+        "cottier2024_p4",
+        "cottier2024_p19"
+    ],
+    "q070": [
+        "stone2022_p2",
+        "stone2022_p4",
+        "stone2022_p3",
+        "stone2022_p1",
+        "stone2022_p5"
+    ],
+    "q071": [
+        "wu2021a_p9",
+        "jegham2025_p19",
+        "amazon2023_p21",
+        "wu2021a_p15",
+        "wu2021b_p5"
+    ],
+    "q072": [
+        "chung2025_p8",
+        "zschache2025_p1",
+        "zschache2025_p7",
+        "zschache2025_p3",
+        "samsi2024_p8"
+    ],
+    "q073": [
+        "stone2022_p4",
+        "stone2022_p1",
+        "stone2022_p2",
+        "stone2022_p3",
+        "stone2022_p43"
+    ],
+    "q074": [
+        "amazon2023_p6",
+        "luccioni2025c_p4",
+        "jegham2025_p13",
+        "morrison2025_p1",
+        "dodge2022_p9"
+    ],
+    "q076": [
+        "luccioni2025c_p4",
+        "morrison2025_p3",
+        "khan2025_p2",
+        "luccioni2025c_p2",
+        "morrison2025_p7"
+    ],
+    "q077": [
+        "wu2021a_p2",
+        "wu2021a_p10",
+        "wu2021a_p1",
+        "wu2021a_p6",
+        "wu2021a_p3"
+    ],
+    "q079": [
+        "wu2021a_p2",
+        "luccioni2024_p12",
+        "luccioni2024_p7",
+        "luccioni2023_p9",
+        "stone2022_p50"
+    ],
+    "q080": [
+        "stone2022_p52",
+        "stone2022_p14",
+        "stone2022_p13",
+        "schwartz2019_p11",
+        "stone2022_p15"
+    ],
+    "q081": [
+        "fernandez2025_p5",
+        "jegham2025_p5",
+        "kim2025_p3",
+        "jegham2025_p18",
+        "chen2024_p2"
+    ],
+    "q082": [
+        "shen2024_p9",
+        "shen2024_p1",
+        "shen2024_p2",
+        "morrison2025_p6",
+        "shen2024_p8"
+    ],
+    "q083": [
+        "kim2025_p9",
+        "kim2025_p10",
+        "kim2025_p8",
+        "kim2025_p1",
+        "kim2025_p4"
+    ],
+    "q084": [
+        "luccioni2024_p7",
+        "luccioni2024_p5",
+        "luccioni2024_p9",
+        "luccioni2024_p14",
+        "luccioni2024_p10"
+    ],
+    "q085": [
+        "luccioni2024_p6",
+        "jegham2025_p5",
+        "morrison2025_p10",
+        "luccioni2024_p5",
+        "morrison2025_p5"
+    ],
+    "q086": [
+        "luccioni2025b_p14",
+        "luccioni2025b_p3",
+        "luccioni2025b_p1",
+        "luccioni2025b_p11",
+        "luccioni2025b_p5"
+    ],
+    "q087": [
+        "patterson2021_p4",
+        "luccioni2023_p5",
+        "dodge2022_p6",
+        "han2024_p15",
+        "luccioni2023_p6"
+    ],
+    "q088": [
+        "erben2023_p2",
+        "erben2023_p3",
+        "erben2023_p12",
+        "erben2023_p11",
+        "erben2023_p1"
+    ],
+    "q089": [
+        "luccioni2025b_p13",
+        "luccioni2025b_p11",
+        "luccioni2025b_p8",
+        "luccioni2025b_p17",
+        "luccioni2025b_p10"
+    ],
+    "q090": [
+        "zschache2025_p14",
+        "zschache2025_p7",
+        "zschache2025_p2",
+        "zschache2025_p4",
+        "zschache2025_p5"
+    ],
+    "q092": [
+        "chen2024_p1",
+        "chen2024_p13",
+        "chen2024_p3",
+        "chen2024_p12",
+        "chen2024_p2"
+    ],
+    "q093": [
+        "patterson2021_p5",
+        "luccioni2024_p14",
+        "patterson2021_p7",
+        "patterson2021_p1",
+        "wu2021a_p4"
+    ],
+    "q094": [
+        "shen2024_p9",
+        "shen2024_p1",
+        "shen2024_p6",
+        "shen2024_p2",
+        "shen2024_p11"
+    ],
+    "q095": [
+        "li2025b_p1",
+        "luccioni2025a_p2",
+        "li2025b_p10",
+        "li2025b_p3",
+        "li2025b_p2"
+    ],
+    "q096": [
+        "zschache2025_p3",
+        "khan2025_p2",
+        "patterson2021_p1",
+        "luccioni2025c_p4",
+        "jegham2025_p1"
+    ],
+    "q097": [
+        "li2025a_p3",
+        "li2025a_p1",
+        "li2025a_p7",
+        "li2025a_p5",
+        "li2025a_p4"
+    ],
+    "q098": [
+        "cottier2024_p1",
+        "cottier2024_p6",
+        "cottier2024_p7",
+        "cottier2024_p9",
+        "cottier2024_p10"
+    ],
+    "q099": [
+        "wu2021a_p5",
+        "wu2021a_p10",
+        "wu2021a_p2",
+        "wu2021a_p4",
+        "wu2021a_p9"
+    ],
+    "q100": [
+        "erben2023_p6",
+        "erben2023_p7",
+        "erben2023_p11",
+        "erben2023_p8",
+        "erben2023_p9"
+    ],
+    "q101": [
+        "amazon2023_p40",
+        "amazon2023_p42",
+        "amazon2023_p43",
+        "amazon2023_p41",
+        "amazon2023_p95"
+    ],
+    "q103": [
+        "rubei2025_p5",
+        "rubei2025_p1",
+        "rubei2025_p3",
+        "rubei2025_p2",
+        "rubei2025_p7"
+    ],
+    "q104": [
+        "morrison2025_p5",
+        "ebert2024_p7",
+        "luccioni2025a_p2",
+        "samsi2024_p8",
+        "li2025b_p10"
+    ],
+    "q107": [
+        "cottier2024_p9",
+        "cottier2024_p7",
+        "cottier2024_p2",
+        "cottier2024_p8",
+        "cottier2024_p1"
+    ],
+    "q108": [
+        "wu2021b_p2",
+        "wu2021a_p6",
+        "wu2021a_p4",
+        "ebert2024_p2",
+        "ebert2024_p3"
+    ],
+    "q109": [
+        "luccioni2025b_p14",
+        "luccioni2025b_p5",
+        "luccioni2025b_p11",
+        "luccioni2025b_p3",
+        "luccioni2025b_p2"
+    ],
+    "q110": [
+        "cottier2024_p1",
+        "cottier2024_p7",
+        "cottier2024_p10",
+        "cottier2024_p9",
+        "cottier2024_p4"
+    ],
+    "q111": [
+        "ebert2024_p6",
+        "ebert2024_p1",
+        "ebert2024_p9",
+        "ebert2024_p2",
+        "ebert2024_p5"
+    ],
+    "q112": [
+        "han2024_p4",
+        "han2024_p27",
+        "han2024_p5",
+        "han2024_p28",
+        "han2024_p1"
+    ],
+    "q113": [
+        "luccioni2025a_p5",
+        "amazon2023_p62",
+        "amazon2023_p15",
+        "amazon2023_p95",
+        "amazon2023_p58"
+    ],
+    "q114": [
+        "han2024_p1",
+        "han2024_p18",
+        "han2024_p19",
+        "han2024_p2",
+        "han2024_p10"
+    ],
+    "q115": [
+        "zschache2025_p19",
+        "zschache2025_p20",
+        "zschache2025_p14",
+        "morrison2025_p7",
+        "samsi2024_p4"
+    ],
+    "q116": [
+        "morrison2025_p1",
+        "dodge2022_p7",
+        "li2025a_p1",
+        "fernandez2025_p2",
+        "morrison2025_p3"
+    ],
+    "q117": [
+        "luccioni2025b_p13",
+        "luccioni2025a_p9",
+        "jegham2025_p12",
+        "luccioni2025b_p4",
+        "luccioni2025a_p1"
+    ],
+    "q118": [
+        "patterson2021_p6",
+        "patterson2021_p5",
+        "patterson2021_p1",
+        "li2025a_p4",
+        "wu2021a_p4"
+    ],
+    "q119": [
+        "luccioni2024_p6",
+        "luccioni2024_p5",
+        "jegham2025_p4",
+        "li2025b_p10",
+        "luccioni2024_p10"
+    ],
+    "q120": [
+        "strubell2019_p1",
+        "luccioni2025c_p4",
+        "patterson2021_p21",
+        "amazon2023_p19",
+        "strubell2019_p2"
+    ],
+    "q121": [
+        "han2024_p12",
+        "han2024_p5",
+        "han2024_p26",
+        "han2024_p2",
+        "han2024_p27"
+    ],
+    "q122": [
+        "khan2025_p5",
+        "khan2025_p4",
+        "khan2025_p3",
+        "khan2025_p6",
+        "luccioni2024_p17"
+    ],
+    "q123": [
+        "luccioni2024_p12",
+        "ebert2024_p2",
+        "luccioni2024_p5",
+        "luccioni2024_p13",
+        "luccioni2024_p15"
+    ],
+    "q125": [
+        "li2025a_p2",
+        "li2025a_p7",
+        "li2025a_p5",
+        "li2025a_p3",
+        "li2025a_p1"
+    ],
+    "q126": [
+        "luccioni2024_p12",
+        "ebert2024_p2",
+        "luccioni2024_p13",
+        "dodge2022_p7",
+        "luccioni2024_p5"
+    ],
+    "q127": [
+        "luccioni2024_p15",
+        "luccioni2024_p5",
+        "luccioni2024_p13",
+        "jegham2025_p14",
+        "morrison2025_p4"
+    ],
+    "q128": [
+        "luccioni2024_p12",
+        "ebert2024_p2",
+        "luccioni2024_p13",
+        "luccioni2024_p5",
+        "luccioni2024_p10"
+    ],
+    "q129": [
+        "zschache2025_p4",
+        "zschache2025_p14",
+        "luccioni2023_p9",
+        "samsi2024_p3",
+        "ebert2024_p4"
+    ],
+    "q130": [
+        "jegham2025_p2",
+        "morrison2025_p3",
+        "jegham2025_p13",
+        "morrison2025_p7",
+        "rubei2025_p4"
+    ],
+    "q131": [
+        "morrison2025_p6",
+        "luccioni2025a_p2",
+        "cottier2024_p14",
+        "jegham2025_p15",
+        "morrison2025_p5"
+    ],
+    "q132": [
+        "patterson2021_p22",
+        "patterson2021_p21",
+        "patterson2021_p13",
+        "patterson2021_p8",
+        "patterson2021_p3"
+    ],
+    "q133": [
+        "luccioni2025c_p3",
+        "morrison2025_p2",
+        "morrison2025_p1",
+        "morrison2025_p3",
+        "khan2025_p1"
+    ],
+    "q134": [
+        "samsi2024_p4",
+        "samsi2024_p8",
+        "samsi2024_p1",
+        "samsi2024_p3",
+        "rubei2025_p6"
+    ],
+    "q136": [
+        "dodge2022_p9",
+        "dodge2022_p8",
+        "dodge2022_p7",
+        "luccioni2023_p2",
+        "luccioni2023_p11"
+    ],
+    "q137": [
+        "samsi2024_p2",
+        "luccioni2025c_p4",
+        "khan2025_p1",
+        "morrison2025_p3",
+        "morrison2025_p2"
+    ],
+    "q138": [
+        "griggs2024_p10",
+        "griggs2024_p9",
+        "griggs2024_p7",
+        "griggs2024_p17",
+        "griggs2024_p19"
+    ],
+    "q140": [
+        "chen2024_p1",
+        "li2025a_p3",
+        "fernandez2025_p3",
+        "wu2021b_p3",
+        "wu2021a_p15"
+    ],
+    "q141": [
+        "luccioni2025a_p10",
+        "luccioni2025b_p1",
+        "dodge2022_p15",
+        "morrison2025_p2",
+        "khan2025_p2"
+    ],
+    "q142": [
+        "han2024_p27",
+        "han2024_p10",
+        "han2024_p12",
+        "han2024_p11",
+        "han2024_p26"
+    ],
+    "q143": [
+        "samsi2024_p4",
+        "samsi2024_p8",
+        "samsi2024_p1",
+        "samsi2024_p3",
+        "rubei2025_p6"
+    ],
+    "q144": [
+        "khan2025_p1",
+        "khan2025_p5",
+        "khan2025_p2",
+        "jegham2025_p12",
+        "samsi2024_p1"
+    ],
+    "q145": [
+        "luccioni2025b_p9",
+        "luccioni2023_p3",
+        "luccioni2023_p11",
+        "wu2021a_p3",
+        "luccioni2023_p12"
+    ],
+    "q147": [
+        "shen2024_p2",
+        "xia2024_p10",
+        "morrison2025_p6",
+        "xia2024_p9",
+        "cottier2024_p14"
+    ],
+    "q148": [
+        "han2024_p13",
+        "han2024_p10",
+        "han2024_p12",
+        "han2024_p1",
+        "han2024_p28"
+    ],
+    "q149": [
+        "shen2024_p1",
+        "shen2024_p6",
+        "shen2024_p2",
+        "shen2024_p9",
+        "shen2024_p4"
+    ],
+    "q150": [
+        "amazon2023_p26",
+        "amazon2023_p25",
+        "amazon2023_p19",
+        "amazon2023_p24",
+        "amazon2023_p21"
+    ],
+    "q151": [
+        "amazon2023_p77",
+        "amazon2023_p78",
+        "amazon2023_p88",
+        "amazon2023_p95",
+        "amazon2023_p69"
+    ],
+    "q152": [
+        "li2025b_p4",
+        "wu2021b_p5",
+        "wu2021b_p14",
+        "luccioni2025a_p7",
+        "li2025b_p2"
+    ],
+    "q154": [
+        "xia2024_p4",
+        "xia2024_p9",
+        "xia2024_p3",
+        "xia2024_p13",
+        "xia2024_p5"
+    ],
+    "q155": [
+        "erben2023_p11",
+        "erben2023_p4",
+        "erben2023_p2",
+        "erben2023_p6",
+        "erben2023_p12"
+    ],
+    "q156": [
+        "luccioni2025b_p5",
+        "luccioni2025a_p13",
+        "morrison2025_p1",
+        "amazon2023_p21",
+        "luccioni2025a_p2"
+    ],
+    "q157": [
+        "li2025b_p2",
+        "jegham2025_p11",
+        "li2025b_p3",
+        "li2025b_p1",
+        "jegham2025_p7"
+    ],
+    "q159": [
+        "stone2022_p1",
+        "stone2022_p4",
+        "stone2022_p3",
+        "stone2022_p5",
+        "stone2022_p2"
+    ],
+    "q160": [
+        "wu2021b_p1",
+        "wu2021b_p5",
+        "wu2021b_p6",
+        "luccioni2025a_p6",
+        "luccioni2025a_p2"
+    ],
+    "q161": [
+        "luccioni2025c_p3",
+        "samsi2024_p2",
+        "samsi2024_p1",
+        "morrison2025_p2",
+        "morrison2025_p3"
+    ],
+    "q162": [
+        "stone2022_p13",
+        "stone2022_p52",
+        "stone2022_p4",
+        "stone2022_p26",
+        "stone2022_p46"
+    ],
+    "q163": [
+        "luccioni2025a_p2",
+        "li2025b_p5",
+        "li2025b_p2",
+        "li2025b_p6",
+        "jegham2025_p1"
+    ],
+    "q165": [
+        "shen2024_p10",
+        "shen2024_p1",
+        "shen2024_p9",
+        "shen2024_p2",
+        "li2025a_p5"
+    ],
+    "q167": [
+        "li2025b_p2",
+        "li2025b_p6",
+        "jegham2025_p1",
+        "jegham2025_p11",
+        "li2025b_p1"
+    ],
+    "q168": [
+        "griggs2024_p1",
+        "griggs2024_p3",
+        "griggs2024_p10",
+        "fernandez2025_p9",
+        "griggs2024_p11"
+    ],
+    "q169": [
+        "samsi2024_p4",
+        "samsi2024_p8",
+        "samsi2024_p3",
+        "samsi2024_p1",
+        "rubei2025_p6"
+    ],
+    "q171": [
+        "han2024_p1",
+        "luccioni2025c_p2",
+        "han2024_p13",
+        "han2024_p28",
+        "han2024_p10"
+    ],
+    "q172": [
+        "fernandez2025_p1",
+        "patterson2021_p2",
+        "griggs2024_p3",
+        "samsi2024_p8",
+        "luccioni2024_p2"
+    ],
+    "q173": [
+        "luccioni2024_p15",
+        "luccioni2024_p7",
+        "luccioni2024_p1",
+        "luccioni2024_p11",
+        "morrison2025_p7"
+    ],
+    "q174": [
+        "chung2025_p7",
+        "ebert2024_p7",
+        "luccioni2024_p12",
+        "luccioni2023_p4",
+        "cottier2024_p3"
+    ],
+    "q175": [
+        "jegham2025_p6",
+        "jegham2025_p8",
+        "jegham2025_p12",
+        "jegham2025_p4",
+        "jegham2025_p5"
+    ],
+    "q176": [
+        "xia2024_p9",
+        "xia2024_p10",
+        "xia2024_p5",
+        "xia2024_p4",
+        "xia2024_p3"
+    ],
+    "q177": [
+        "luccioni2025c_p1",
+        "luccioni2025c_p6",
+        "luccioni2025a_p1",
+        "morrison2025_p2",
+        "luccioni2025c_p2"
+    ],
+    "q178": [
+        "griggs2024_p9",
+        "chen2024_p9",
+        "chen2024_p2",
+        "xia2024_p10",
+        "morrison2025_p6"
+    ],
+    "q179": [
+        "li2025b_p1",
+        "jegham2025_p2",
+        "li2025b_p2",
+        "li2025b_p6",
+        "li2025b_p3"
+    ],
+    "q180": [
+        "griggs2024_p1",
+        "griggs2024_p6",
+        "samsi2024_p4",
+        "samsi2024_p8",
+        "erben2023_p12"
+    ],
+    "q181": [
+        "wu2021a_p2",
+        "patterson2021_p15",
+        "patterson2021_p14",
+        "strubell2019_p4",
+        "cottier2024_p10"
+    ],
+    "q182": [
+        "luccioni2023_p2",
+        "patterson2021_p1",
+        "luccioni2023_p11",
+        "strubell2019_p1",
+        "patterson2021_p8"
+    ],
+    "q183": [
+        "luccioni2024_p12",
+        "luccioni2024_p13",
+        "luccioni2024_p10",
+        "luccioni2024_p5",
+        "morrison2025_p7"
+    ],
+    "q184": [
+        "shen2024_p1",
+        "shen2024_p2",
+        "shen2024_p6",
+        "shen2024_p9",
+        "morrison2025_p6"
+    ],
+    "q185": [
+        "cottier2024_p1",
+        "cottier2024_p9",
+        "cottier2024_p6",
+        "cottier2024_p10",
+        "morrison2025_p6"
+    ],
+    "q186": [
+        "patterson2021_p18",
+        "li2025a_p5",
+        "li2025b_p2",
+        "cottier2024_p16",
+        "li2025a_p7"
+    ],
+    "q187": [
+        "samsi2024_p8",
+        "samsi2024_p4",
+        "samsi2024_p3",
+        "samsi2024_p1",
+        "rubei2025_p6"
+    ],
+    "q188": [
+        "li2025a_p3",
+        "li2025a_p4",
+        "li2025a_p7",
+        "li2025a_p2",
+        "li2025a_p6"
+    ],
+    "q189": [
+        "schwartz2019_p7",
+        "schwartz2019_p1",
+        "wu2021a_p16",
+        "luccioni2023_p10",
+        "schwartz2019_p8"
+    ],
+    "q190": [
+        "li2025a_p1",
+        "li2025a_p3",
+        "li2025a_p2",
+        "li2025a_p7",
+        "li2025a_p5"
+    ],
+    "q191": [
+        "luccioni2023_p2",
+        "dodge2022_p3",
+        "strubell2019_p1",
+        "luccioni2023_p11",
+        "patterson2021_p8"
+    ],
+    "q192": [
+        "schwartz2019_p4",
+        "erben2023_p3",
+        "erben2023_p11",
+        "strubell2019_p4",
+        "dodge2022_p6"
+    ],
+    "q193": [
+        "amazon2023_p19",
+        "amazon2023_p26",
+        "amazon2023_p18",
+        "amazon2023_p12",
+        "amazon2023_p13"
+    ],
+    "q194": [
+        "griggs2024_p1",
+        "chen2024_p1",
+        "samsi2024_p1",
+        "samsi2024_p3",
+        "samsi2024_p8"
+    ],
+    "q195": [
+        "zschache2025_p6",
+        "zschache2025_p8",
+        "chung2025_p7",
+        "chung2025_p8",
+        "zschache2025_p14"
+    ],
+    "q196": [
+        "jegham2025_p10",
+        "luccioni2024_p12",
+        "jegham2025_p11",
+        "ebert2024_p12",
+        "luccioni2025c_p4"
+    ],
+    "q197": [
+        "jegham2025_p1",
+        "jegham2025_p11",
+        "jegham2025_p10",
+        "jegham2025_p2",
+        "jegham2025_p6"
+    ],
+    "q198": [
+        "li2025b_p1",
+        "luccioni2025a_p2",
+        "li2025b_p6",
+        "li2025b_p2",
+        "li2025b_p5"
+    ],
+    "q199": [
+        "zschache2025_p14",
+        "samsi2024_p2",
+        "luccioni2024_p9",
+        "rubei2025_p1",
+        "samsi2024_p1"
+    ],
+    "q201": [
+        "patterson2021_p5",
+        "patterson2021_p4",
+        "patterson2021_p6",
+        "patterson2021_p3",
+        "morrison2025_p4"
+    ],
+    "q204": [
+        "jegham2025_p11",
+        "jegham2025_p10",
+        "jegham2025_p4",
+        "jegham2025_p2",
+        "jegham2025_p6"
+    ],
+    "q205": [
+        "shen2024_p9",
+        "shen2024_p10",
+        "shen2024_p1",
+        "shen2024_p6",
+        "shen2024_p2"
+    ],
+    "q206": [
+        "ebert2024_p2",
+        "luccioni2025a_p2",
+        "morrison2025_p1",
+        "morrison2025_p10",
+        "cottier2024_p1"
+    ],
+    "q208": [
+        "ebert2024_p9",
+        "ebert2024_p6",
+        "ebert2024_p1",
+        "ebert2024_p5",
+        "ebert2024_p4"
+    ],
+    "q209": [
+        "patterson2021_p3",
+        "wu2021b_p2",
+        "patterson2021_p4",
+        "morrison2025_p4",
+        "patterson2021_p18"
+    ],
+    "q210": [
+        "kim2025_p3",
+        "kim2025_p2",
+        "kim2025_p7",
+        "kim2025_p8",
+        "kim2025_p5"
+    ],
+    "q212": [
+        "cottier2024_p2",
+        "cottier2024_p7",
+        "cottier2024_p9",
+        "cottier2024_p4",
+        "cottier2024_p1"
+    ],
+    "q213": [
+        "luccioni2024_p5",
+        "zschache2025_p7",
+        "zschache2025_p6",
+        "rubei2025_p1",
+        "chung2025_p6"
+    ],
+    "q214": [
+        "luccioni2025c_p4",
+        "luccioni2024_p12",
+        "jegham2025_p11",
+        "luccioni2025c_p5",
+        "luccioni2024_p2"
+    ],
+    "q216": [
+        "kim2025_p1",
+        "kim2025_p7",
+        "kim2025_p8",
+        "kim2025_p9",
+        "kim2025_p4"
+    ],
+    "q217": [
+        "samsi2024_p6",
+        "samsi2024_p4",
+        "samsi2024_p5",
+        "samsi2024_p8",
+        "samsi2024_p3"
+    ],
+    "q218": [
+        "morrison2025_p6",
+        "luccioni2025a_p2",
+        "li2025b_p6",
+        "cottier2024_p14",
+        "morrison2025_p4"
+    ],
+    "q219": [
+        "ebert2024_p9",
+        "ebert2024_p1",
+        "ebert2024_p2",
+        "ebert2024_p10",
+        "ebert2024_p4"
+    ],
+    "q220": [
+        "luccioni2025a_p6",
+        "patterson2021_p19",
+        "amazon2023_p26",
+        "amazon2023_p25",
+        "wu2021b_p5"
+    ],
+    "q222": [
+        "han2024_p27",
+        "han2024_p12",
+        "han2024_p10",
+        "han2024_p11",
+        "han2024_p6"
+    ],
+    "q223": [
+        "jegham2025_p8",
+        "jegham2025_p9",
+        "jegham2025_p4",
+        "jegham2025_p5",
+        "jegham2025_p19"
+    ],
+    "q224": [
+        "griggs2024_p10",
+        "griggs2024_p9",
+        "griggs2024_p1",
+        "griggs2024_p3",
+        "griggs2024_p11"
+    ],
+    "q225": [
+        "luccioni2023_p9",
+        "dodge2022_p9",
+        "khan2025_p2",
+        "luccioni2023_p11",
+        "luccioni2025c_p4"
+    ],
+    "q226": [
+        "xia2024_p4",
+        "xia2024_p9",
+        "xia2024_p3",
+        "xia2024_p10",
+        "xia2024_p5"
+    ],
+    "q227": [
+        "han2024_p19",
+        "han2024_p10",
+        "han2024_p2",
+        "han2024_p1",
+        "han2024_p11"
+    ],
+    "q228": [
+        "kim2025_p8",
+        "ebert2024_p7",
+        "kim2025_p7",
+        "samsi2024_p8",
+        "samsi2024_p4"
+    ],
+    "q229": [
+        "khan2025_p3",
+        "khan2025_p4",
+        "khan2025_p6",
+        "khan2025_p1",
+        "khan2025_p5"
+    ],
+    "q232": [
+        "erben2023_p3",
+        "erben2023_p1",
+        "erben2023_p11",
+        "erben2023_p10",
+        "erben2023_p12"
+    ],
+    "q233": [
+        "zschache2025_p1",
+        "zschache2025_p3",
+        "samsi2024_p8",
+        "zschache2025_p7",
+        "samsi2024_p3"
+    ],
+    "q234": [
+        "ebert2024_p4",
+        "ebert2024_p12",
+        "luccioni2025a_p7",
+        "luccioni2025a_p2",
+        "luccioni2025a_p4"
+    ],
+    "q235": [
+        "xia2024_p10",
+        "cottier2024_p14",
+        "griggs2024_p9",
+        "morrison2025_p6",
+        "chen2024_p1"
+    ],
+    "q236": [
+        "morrison2025_p6",
+        "ebert2024_p7",
+        "luccioni2025a_p2",
+        "morrison2025_p10",
+        "li2025b_p10"
+    ],
+    "q237": [
+        "samsi2024_p4",
+        "samsi2024_p8",
+        "samsi2024_p3",
+        "samsi2024_p1",
+        "rubei2025_p6"
+    ],
+    "q238": [
+        "luccioni2025c_p4",
+        "morrison2025_p3",
+        "morrison2025_p2",
+        "khan2025_p2",
+        "luccioni2025c_p2"
+    ],
+    "q239": [
+        "strubell2019_p3",
+        "strubell2019_p2",
+        "strubell2019_p4",
+        "morrison2025_p5",
+        "strubell2019_p5"
+    ],
+    "q240": [
+        "li2025b_p4",
+        "li2025b_p10",
+        "li2025b_p5",
+        "li2025b_p6",
+        "morrison2025_p7"
+    ],
+    "q241": [
+        "wu2021b_p2",
+        "dodge2022_p6",
+        "patterson2021_p18",
+        "li2025b_p10",
+        "ebert2024_p3"
+    ],
+    "q242": [
+        "amazon2023_p20",
+        "amazon2023_p19",
+        "amazon2023_p38",
+        "dodge2022_p10",
+        "amazon2023_p7"
+    ],
+    "q243": [
+        "xia2024_p10",
+        "xia2024_p9",
+        "xia2024_p1",
+        "xia2024_p3",
+        "xia2024_p4"
+    ],
+    "q244": [
+        "chung2025_p3",
+        "dodge2022_p6",
+        "jegham2025_p5",
+        "strubell2019_p2",
+        "wu2021a_p6"
+    ],
+    "q245": [
+        "shen2024_p6",
+        "shen2024_p1",
+        "shen2024_p2",
+        "morrison2025_p5",
+        "shen2024_p9"
+    ],
+    "q247": [
+        "morrison2025_p10",
+        "morrison2025_p4",
+        "morrison2025_p2",
+        "morrison2025_p16",
+        "morrison2025_p8"
+    ],
+    "q248": [
+        "strubell2019_p1",
+        "luccioni2025c_p4",
+        "patterson2021_p21",
+        "strubell2019_p2",
+        "amazon2023_p19"
+    ],
+    "q249": [
+        "samsi2024_p4",
+        "samsi2024_p8",
+        "samsi2024_p3",
+        "samsi2024_p1",
+        "zschache2025_p6"
+    ],
+    "q250": [
+        "jegham2025_p10",
+        "jegham2025_p11",
+        "jegham2025_p9",
+        "jegham2025_p5",
+        "luccioni2024_p12"
+    ],
+    "q251": [
+        "kim2025_p9",
+        "kim2025_p10",
+        "kim2025_p8",
+        "kim2025_p1",
+        "kim2025_p4"
+    ],
+    "q252": [
+        "zschache2025_p10",
+        "zschache2025_p9",
+        "chung2025_p6",
+        "luccioni2024_p5",
+        "samsi2024_p4"
+    ],
+    "q254": [
+        "schwartz2019_p1",
+        "khan2025_p6",
+        "schwartz2019_p2",
+        "ebert2024_p2",
+        "schwartz2019_p7"
+    ],
+    "q255": [
+        "luccioni2025a_p3",
+        "wu2021b_p5",
+        "amazon2023_p34",
+        "amazon2023_p37",
+        "amazon2023_p95"
+    ],
+    "q256": [
+        "patterson2021_p5",
+        "patterson2021_p3",
+        "patterson2021_p6",
+        "patterson2021_p18",
+        "cottier2024_p14"
+    ],
+    "q257": [
+        "li2025b_p1",
+        "li2025b_p2",
+        "li2025b_p5",
+        "li2025b_p3",
+        "jegham2025_p1"
+    ],
+    "q258": [
+        "wu2021a_p2",
+        "wu2021a_p10",
+        "wu2021a_p11",
+        "wu2021a_p4",
+        "wu2021a_p6"
+    ],
+    "q259": [
+        "jegham2025_p19",
+        "jegham2025_p3",
+        "jegham2025_p13",
+        "jegham2025_p7",
+        "jegham2025_p2"
+    ],
+    "q260": [
+        "wu2021b_p5",
+        "wu2021b_p3",
+        "luccioni2025a_p1",
+        "luccioni2025a_p10",
+        "wu2021b_p7"
+    ],
+    "q261": [
+        "erben2023_p6",
+        "erben2023_p5",
+        "erben2023_p9",
+        "erben2023_p7",
+        "erben2023_p12"
+    ],
+    "q264": [
+        "li2025a_p3",
+        "li2025a_p2",
+        "li2025a_p6",
+        "li2025a_p7",
+        "li2025a_p1"
+    ],
+    "q265": [
+        "chung2025_p8",
+        "chen2024_p1",
+        "fernandez2025_p4",
+        "chung2025_p26",
+        "samsi2024_p1"
+    ],
+    "q266": [
+        "amazon2023_p89",
+        "amazon2023_p88",
+        "amazon2023_p77",
+        "amazon2023_p87",
+        "amazon2023_p78"
+    ],
+    "q267": [
+        "cottier2024_p2",
+        "cottier2024_p7",
+        "cottier2024_p9",
+        "cottier2024_p19",
+        "cottier2024_p20"
+    ],
+    "q268": [
+        "khan2025_p4",
+        "khan2025_p5",
+        "khan2025_p3",
+        "luccioni2023_p10",
+        "xia2024_p4"
+    ],
+    "q269": [
+        "strubell2019_p2",
+        "patterson2021_p22",
+        "morrison2025_p7",
+        "luccioni2023_p6",
+        "patterson2021_p21"
+    ],
+    "q270": [
+        "li2025b_p10",
+        "li2025b_p1",
+        "li2025b_p2",
+        "li2025b_p4",
+        "luccioni2025a_p2"
+    ],
+    "q271": [
+        "amazon2023_p17",
+        "amazon2023_p9",
+        "amazon2023_p12",
+        "amazon2023_p16",
+        "amazon2023_p14"
+    ],
+    "q273": [
+        "kim2025_p8",
+        "fernandez2025_p2",
+        "kim2025_p10",
+        "kim2025_p9",
+        "fernandez2025_p8"
+    ],
+    "q274": [
+        "ebert2024_p1",
+        "luccioni2025b_p5",
+        "ebert2024_p9",
+        "ebert2024_p2",
+        "ebert2024_p6"
+    ],
+    "q275": [
+        "dodge2022_p11",
+        "dodge2022_p12",
+        "dodge2022_p10",
+        "dodge2022_p24",
+        "dodge2022_p20"
+    ],
+    "q276": [
+        "luccioni2024_p6",
+        "luccioni2024_p7",
+        "luccioni2024_p13",
+        "luccioni2024_p4",
+        "zschache2025_p2"
+    ],
+    "q277": [
+        "zschache2025_p14",
+        "samsi2024_p2",
+        "luccioni2024_p9",
+        "rubei2025_p1",
+        "samsi2024_p1"
+    ],
+    "q279": [
+        "amazon2023_p26",
+        "amazon2023_p25",
+        "amazon2023_p24",
+        "amazon2023_p19",
+        "amazon2023_p21"
+    ],
+    "q281": [
+        "amazon2023_p26",
+        "amazon2023_p19",
+        "amazon2023_p20",
+        "amazon2023_p7",
+        "amazon2023_p27"
+    ],
+    "q283": [
+        "ebert2024_p9",
+        "ebert2024_p1",
+        "ebert2024_p7",
+        "ebert2024_p3",
+        "chung2025_p10"
+    ],
+    "q284": [
+        "dodge2022_p6",
+        "dodge2022_p7",
+        "dodge2022_p5",
+        "morrison2025_p4",
+        "strubell2019_p2"
+    ],
+    "q285": [
+        "griggs2024_p1",
+        "samsi2024_p8",
+        "samsi2024_p4",
+        "samsi2024_p3",
+        "chen2024_p1"
+    ],
+    "q286": [
+        "wu2021a_p5",
+        "wu2021a_p6",
+        "wu2021a_p10",
+        "wu2021a_p2",
+        "wu2021a_p4"
+    ],
+    "q287": [
+        "fernandez2025_p1",
+        "li2025b_p1",
+        "dodge2022_p6",
+        "amazon2023_p71",
+        "amazon2023_p72"
+    ],
+    "q288": [
+        "cottier2024_p6",
+        "cottier2024_p7",
+        "cottier2024_p1",
+        "cottier2024_p10",
+        "cottier2024_p16"
+    ],
+    "q289": [
+        "luccioni2025a_p1",
+        "luccioni2025b_p3",
+        "dodge2022_p15",
+        "jegham2025_p12",
+        "ebert2024_p10"
+    ],
+    "q290": [
+        "xia2024_p9",
+        "xia2024_p4",
+        "xia2024_p10",
+        "samsi2024_p8",
+        "jegham2025_p5"
+    ],
+    "q291": [
+        "chung2025_p24",
+        "chung2025_p23",
+        "kim2025_p2",
+        "kim2025_p1",
+        "samsi2024_p1"
+    ],
+    "q292": [
+        "luccioni2025a_p2",
+        "luccioni2025c_p9",
+        "luccioni2025c_p4",
+        "morrison2025_p3",
+        "luccioni2025a_p7"
+    ],
+    "q293": [
+        "han2024_p12",
+        "ebert2024_p3",
+        "dodge2022_p6",
+        "han2024_p28",
+        "han2024_p1"
+    ],
+    "q294": [
+        "dodge2022_p12",
+        "dodge2022_p11",
+        "dodge2022_p7",
+        "dodge2022_p19",
+        "dodge2022_p13"
+    ],
+    "q295": [
+        "shen2024_p2",
+        "shen2024_p1",
+        "shen2024_p6",
+        "samsi2024_p4",
+        "shen2024_p11"
+    ],
+    "q298": [
+        "luccioni2023_p2",
+        "luccioni2025b_p4",
+        "strubell2019_p4",
+        "luccioni2025c_p4",
+        "dodge2022_p7"
+    ],
+    "q299": [
+        "li2025b_p5",
+        "jegham2025_p1",
+        "patterson2021_p7",
+        "li2025a_p4",
+        "luccioni2023_p11"
+    ],
+    "q300": [
+        "xia2024_p5",
+        "xia2024_p1",
+        "xia2024_p2",
+        "xia2024_p10",
+        "xia2024_p8"
+    ],
+    "q301": [
+        "xia2024_p4",
+        "xia2024_p9",
+        "xia2024_p10",
+        "xia2024_p3",
+        "xia2024_p7"
+    ],
+    "q302": [
+        "erben2023_p7",
+        "erben2023_p6",
+        "erben2023_p9",
+        "erben2023_p10",
+        "erben2023_p8"
+    ],
+    "q303": [
+        "luccioni2025a_p2",
+        "han2024_p6",
+        "ebert2024_p2",
+        "li2025b_p1",
+        "han2024_p2"
+    ],
+    "q305": [
+        "luccioni2024_p14",
+        "luccioni2024_p9",
+        "luccioni2024_p7",
+        "luccioni2024_p8",
+        "luccioni2024_p5"
+    ],
+    "q307": [
+        "dodge2022_p10",
+        "dodge2022_p8",
+        "dodge2022_p7",
+        "dodge2022_p9",
+        "dodge2022_p3"
+    ],
+    "q308": [
+        "luccioni2025c_p3",
+        "luccioni2025c_p2",
+        "cottier2024_p11",
+        "morrison2025_p2",
+        "luccioni2025a_p10"
+    ],
+    "q309": [
+        "morrison2025_p7",
+        "morrison2025_p2",
+        "morrison2025_p1",
+        "morrison2025_p5",
+        "morrison2025_p8"
+    ],
+    "q310": [
+        "li2025b_p1",
+        "li2025b_p3",
+        "li2025b_p2",
+        "li2025b_p4",
+        "luccioni2025a_p2"
+    ],
+    "q311": [
+        "xia2024_p1",
+        "xia2024_p10",
+        "xia2024_p9",
+        "xia2024_p6",
+        "xia2024_p8"
+    ],
+    "q312": [
+        "li2025a_p5",
+        "li2025a_p3",
+        "li2025a_p7",
+        "morrison2025_p2",
+        "luccioni2024_p12"
+    ],
+    "q313": [
+        "han2024_p1",
+        "han2024_p2",
+        "han2024_p12",
+        "han2024_p10",
+        "han2024_p19"
+    ],
+    "q314": [
+        "xia2024_p10",
+        "xia2024_p9",
+        "xia2024_p1",
+        "xia2024_p4",
+        "xia2024_p3"
+    ],
+    "q315": [
+        "xia2024_p9",
+        "xia2024_p4",
+        "xia2024_p10",
+        "xia2024_p1",
+        "xia2024_p3"
+    ],
+    "q317": [
+        "xia2024_p4",
+        "xia2024_p3",
+        "xia2024_p10",
+        "xia2024_p9",
+        "xia2024_p5"
+    ],
+    "q318": [
+        "ebert2024_p7",
+        "li2025b_p10",
+        "fernandez2025_p1",
+        "morrison2025_p2",
+        "ebert2024_p10"
+    ],
+    "q319": [
+        "luccioni2024_p3",
+        "luccioni2023_p2",
+        "luccioni2025b_p8",
+        "morrison2025_p3",
+        "luccioni2024_p12"
+    ],
+    "q320": [
+        "samsi2024_p4",
+        "samsi2024_p8",
+        "samsi2024_p3",
+        "samsi2024_p1",
+        "zschache2025_p6"
+    ],
+    "q321": [
+        "li2025b_p2",
+        "li2025b_p5",
+        "li2025b_p1",
+        "jegham2025_p1",
+        "luccioni2025a_p2"
+    ],
+    "q322": [
+        "dodge2022_p8",
+        "dodge2022_p9",
+        "morrison2025_p1",
+        "jegham2025_p1",
+        "amazon2023_p19"
+    ],
+    "q323": [
+        "shen2024_p10",
+        "shen2024_p9",
+        "shen2024_p6",
+        "shen2024_p1",
+        "shen2024_p8"
+    ]
+}
