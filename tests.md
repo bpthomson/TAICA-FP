@@ -1,124 +1,147 @@
-# Experiment Report: Retrieval & Generation Performance
+## 0. Generation Baseline
+**Config**: TF-IDF (Recall@5: 87%) + gemini-2.5-flash-lite
 
-## 1. Baseline Generation Performance
+| Metric | Text Only | Text + Image |
+| :--- | :---: | :---: |
+| **Value Accuracy** | **58%** | 42% |
+| **Ref ID Jaccard** | 34% | **76%** |
+| **Weighted Score** | **58%** | 52% |
 
-**Configuration**
-- **Retrieval:** TF-IDF (Top 5, Recall@5: 87%)
-- **Generator:** gemini-2.5-flash-lite
+> **Note**: Text Only 數值準確率較佳；Text+Image 在找對 Ref ID 上有顯著優勢。兩者輸出內容差異不大，分數落差多為格式問題。
 
-| Metric                    | Text Only | Text + Image |
-| :------------------------ | :-------: | :----------: |
-| **Average Value Accuracy**    | **58%**   | 42%          |
-| **Average Ref ID Jaccard**   | 34%       | **76%**      |
-| **Average Weighted Score**   | **58%**   | 52%          |
-
-> Text+Image其實沒比較差，許多數值與 text-only 輸出相近，都是單位上的小問題，與只有text輸出內容相異不大 (flash-lite 太笨、prompt 不夠好)  
-> 整體而言餵 image 有助於 generator 讀圖表。
+> 應該是flash-lite太笨了，給表格也看不出來，或是TF-IDF不夠好，沒有給到正確表格頁面
 
 ---
 
-## 2. Retrieval Strategy Analysis
+## 1. Retrieval Model Selection
 
-### A. Sparse Retrieval
+### 1.1 Sparse Retrieval (Keyword-based)
 
-**Base Results (Top 5 hits)**  
-- **TF-IDF:** 87%  
-- **BM25:** 89%
+| Model | Time(s) | Recall@1 | Recall@5 | Recall@10 | Recall@20 | Recall@50 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **BGE-M3 (Sparse)** | 36.1 | **0.821** | 0.897 | 0.923 | **0.974** | **1.000** |
+| **BM25** | 0.4 | 0.769 | **0.923** | 0.923 | 0.949 | 0.974 |
+| **TF-IDF** | **0.2** | 0.744 | **0.923** | **0.949** | **0.974** | 0.974 |
+| **SPLADE-v3** | 63.6 | 0.795 | 0.846 | 0.846 | 0.949 | **1.000** |
 
-**Re-ranking Results**  
-*Strategy: Retrieve Top 50 (BM25) → Rerank → Select Top 5*
+> **Result**: BGE-M3 (Sparse) 首位命中最強 (Recall@1 0.82)；TF-IDF/BM25 速度快且 Recall@5 極具競爭力。
 
-| Reranker Model                     | Final Recall@5 | Improvement |
-| :--------------------------------- | :------------: | :---------: |
-| ms-marco-MiniLM-L-6-v2            | 90%            | –           |
-| jinaai/jina-reranker-v1-turbo-en  | 90%            | –           |
-| **BAAI/bge-reranker-v2-m3**       | **95%**        | **+5%**     |
+### 1.2 Dense Retrieval (Semantic-based)
 
-### B. Dense Retrieval
+| Model | Time(s) | Recall@1 | Recall@5 | Recall@10 | Recall@20 | Recall@50 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **BGE-M3 (Dense)** | 130.0 | 0.615 | **0.923** | **0.974** | **0.974** | **1.000** |
+| **GTE-ModernBERT** | **104.4** | **0.667** | 0.769 | 0.846 | 0.897 | 0.923 |
+| **GTE-Large-En-v1.5**| 162.1 | 0.641 | 0.667 | 0.744 | 0.897 | 0.949 |
+| **Jina-v3** | 181.4 | 0.564 | 0.692 | 0.744 | 0.897 | 0.974 |
 
-**Base Results (Top 5 hits)**  
-- **all-MiniLM-L6-v2:** 71%  
-- **multi-qa-mpnet-base-dot-v1:** 66%  
-- **nomic-ai/nomic-embed-text-v1.5 (w/o Instruction):** 68%  
-- **nomic-ai/nomic-embed-text-v1.5 (w/ Instruction):** 80%
-- **BGE-M3-Dense:** 82%
-
-**Re-ranking Results**  
-*Strategy: Retrieve Top 50 (Nomic) → Rerank → Select Top 5*
-
-| Reranker Model                     | Final Recall@5 | Improvement |
-| :--------------------------------- | :------------: | :---------: |
-| ms-marco-MiniLM-L-6-v2            | 80%            | -         |
-| jinaai/jina-reranker-v1-turbo-en  | 88%            | -        |
-| **BAAI/bge-reranker-v2-m3**       | **95%**        | **+17%**    |
+> **Result**: BGE-M3 (Dense) 宰治 Dense 領域，Recall@10 幾近完美。
 
 ---
 
-### Retriever–Reranker Pipeline Performance
+## 2. Optimization Grid Search
 
-*Base retriever: BM25*
-
-| Reranker Type | Reranker Name                          | Final Recall@1 | Final Recall@5 |
-| :------------ | :-------------------------------------- | :------------: | :------------: |
-| **Cross Encoder** | **BAAI/bge-reranker-v2-m3**         | **90%**        | **95%**        |
-| Cross Encoder | cross-encoder/ms-marco-MiniLM-L-6-v2   | 67%            | 87%            |
-| Cross Encoder | jinaai/jina-reranker-v1-turbo-en       | 62%            | 85%            |
-| Bi-Encoder    | jinaai/jina-embeddings-v2-base-en      | 64%            | 80%            |
-| Bi-Encoder    | Alibaba-NLP/gte-large-en-v1.5          | 62%            | 72%            |
-
----
-
-## 3. Optimized Sparse Retrieval (Grid Search Results)
-
-針對 Sparse Retrieval（TF-IDF、BM25）進行分詞及參數的 Grid Search，觀察不同設定下的 Recall@K 表現。
-
-### 3.1 TF-IDF Grid Search (Full Metrics)
+### 2.1 TF-IDF Tuning
 
 | ngram_range | sublinear_tf | max_df | min_df | Recall@1 | Recall@5 | Recall@10 | Recall@20 | Recall@50 |
 | :---------: | :----------: | :----: | :----: | :------: | :------: | :-------: | :-------: | :-------: |
-| (1, 1)      | False        | 0.95   | 2      | 74%      | 92%      | 92%       | **97%**   | **100%**  |
-| (1, 1)      | False        | 0.95   | 1      | 72%      | 87%      | **95%**   | 95%       | **100%**  |
-| (1, 2)      | True         | 1.00   | 2      | **87%**  | **95%**  | **95%**   | **97%**   | 97%       |
-| (1, 2)      | True         | 0.95   | 2      | **87%**  | **95%**  | **95%**   | **97%**   | 97%       |
-| (1, 2)      | False        | 1.00   | 1      | 82%      | **95%**  | **95%**   | **97%**   | 97%       |
-| (1, 2)      | False        | 1.00   | 2      | **87%**  | **95%**  | **95%**   | **97%**   | 97%       |
-| (1, 2)      | False        | 0.95   | 2      | 85%      | **95%**  | **95%**   | **97%**   | 97%       |
-| (1, 1)      | True         | 1.00   | 2      | 67%      | 92%      | **95%**   | 95%       | 97%       |
-| (1, 1)      | True         | 0.95   | 2      | 67%      | 92%      | **95%**   | 95%       | 97%       |
-| (1, 1)      | False        | 1.00   | 2      | 74%      | 92%      | **95%**   | **97%**   | 97%       |
+| (1, 1) | False | 0.95 | 2 | 74% | 92% | 92% | **97%** | **100%** |
+| (1, 1) | False | 0.95 | 1 | 72% | 87% | **95%** | 95% | **100%** |
+| (1, 2) | True | 1.00 | 2 | **87%** | **95%** | **95%** | **97%** | 97% |
+| (1, 2) | True | 0.95 | 2 | **87%** | **95%** | **95%** | **97%** | 97% |
+| (1, 2) | False | 1.00 | 1 | 82% | **95%** | **95%** | **97%** | 97% |
+| (1, 2) | False | 1.00 | 2 | **87%** | **95%** | **95%** | **97%** | 97% |
+| (1, 2) | False | 0.95 | 2 | 85% | **95%** | **95%** | **97%** | 97% |
 
-- bigram在低 top‑k（例如 Recall@1）表現較佳。
-- 不過 unigram 且 sublinear_tf=False的設定可以在 Recall@50 達到 **100%**，最終選用此組合作為優化後 TF-IDF。
+> Bigram有助於小k的retrieve
+> 以`Bigram`, sublinear=`True`, max_df=`1`, min_df=`2` 組合作為最佳TF-IDF參數
 
-### 3.2 BM25 Grid Search
+### 2.2. BM25 Tuning
+Optimizing k1 (saturation) and b (length normalization).
 
-| k1   | b    | Recall@1 | Recall@5 | Recall@10 | Recall@20 | Recall@50 |
+
+| k1   | b    | Recall@1 | Recall@5 | Recall@10 | Recall@20 | Recall@50 |
 | :--: | :--: | :------: | :------: | :-------: | :-------: | :-------: |
-| 1.2  | 0.75 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
-| 1.2  | 0.80 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
-| 1.2  | 0.90 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
-| 1.4  | 0.75 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
-| 1.4  | 0.80 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
-| 1.4  | 0.90 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
-| 1.5  | 0.60 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
-| 1.5  | 0.75 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
-| 1.5  | 0.80 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
-| 1.5  | 0.90 | 74%      | **92%**  | **92%**   | **95%**   | **97%**   |
+| 1.2  | 0.75 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
+| 1.2  | 0.80 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
+| 1.2  | 0.90 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
+| 1.4  | 0.75 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
+| 1.4  | 0.80 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
+| 1.4  | 0.90 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
+| 1.5  | 0.60 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
+| 1.5  | 0.75 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
+| 1.5  | 0.80 | **77%**  | **92%**  | **92%**   | **95%**   | **97%**   |
+| 1.5  | 0.90 | 74%      | **92%**  | **92%**   | **95%**   | **97%**   |
 
-- 不同 BM25 參數組合之間差異極小。
-- 即便在最佳設定下，BM25 表現仍略遜於優化後的 TF-IDF，因此後續研究重心轉向 TF-IDF。
+
+> BM25參數調整差距不大
+
+### 2.3 BGE-M3 Hybrid Tuning (Sparse + Dense)
+調整`Alpha` (sparse、dense比例)  
+`Score = Dense + Alpha * Sparse`
+
+| Alpha | Recall@1 | Recall@5 | Recall@10 | Recall@20 | Recall@50 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 0.1 | 0.641 | 0.949 | 0.974 | 0.974 | 1.000 |
+| 0.2 | 0.641 | 0.949 | 0.974 | 0.974 | 1.000 |
+| 0.3 | 0.641 | 0.974 | 0.974 | **1.000** | 1.000 |
+| 0.4 | 0.641 | 0.974 | 0.974 | **1.000** | 1.000 |
+| 0.5 | 0.667 | 0.974 | **1.000** | **1.000** | 1.000 |
+| 0.6 | 0.692 | 0.974 | **1.000** | **1.000** | 1.000 |
+| 0.7 | 0.692 | 0.974 | **1.000** | **1.000** | 1.000 |
+| 0.8 | **0.718** | 0.974 | **1.000** | **1.000** | 1.000 |
+| 0.9 | **0.718** | 0.974 | 0.974 | **1.000** | 1.000 |
+| 1.0 | **0.718** | 0.974 | 0.974 | **1.000** | 1.000 |
+| 1.2 | **0.769** | 0.949 | 0.974 | **1.000** | 1.000 |
+| 1.5 | **0.769** | 0.949 | 0.974 | **1.000** | 1.000 |
+| 2.0 | **0.769** | 0.923 | 0.974 | **1.000** | 1.000 |
+| 3.0 | **0.769** | 0.923 | 0.974 | **1.000** | 1.000 |
+
+> 在alpha為0.8時，Recall@1、10、20均獲得最佳結果，選用alpha=0.8的模型
 
 ---
 
-## 4. Detailed Metrics (Baseline vs Optimized)
+## 3. Final Retrieval Decision
 
-### 4.1 Recall Metrics Comparison
+| Model | Config. | Recall@1 | Recall@5 | Recall@10 | Recall@20 | Recall@50 |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **BGE-M3 (Hybrid)** | Alpha=0.8 | 0.718 | **0.974** | **1.000** | **1.000** | **1.000** |
+| **TF-IDF (Opt)** | ngram=(1,2), sublinear=True | **0.870** | 0.950 | 0.950 | 0.970 | 0.970 |
+| **BM25 (Opt)** | k1=1.2, b=0.75 | 0.770 | 0.920 | 0.920 | 0.950 | 0.970 |
+> **Decision**: **BGE-M3 (Hybrid)**。
+> 雖然 TF-IDF 首位準，但 BGE-M3 在 Recall@10=100% ，鬼神級數據。
 
-| Model              | Recall@1 | Recall@5 | Recall@10 | Recall@20 | Recall@50 |
-| :----------------- | :------: | :------: | :-------: | :-------: | :-------: |
-| **TF-IDF (Optimized)** | 74%      | **92%**  | **92%**   | **97%**   | **100%**  |
-| **BM25 (Optimized)**   | **77%**  | **92%**  | **92%**   | 95%       | 97%       |
-| BM25 (Baseline)    | 74%      | 90%      | **92%**   | 95%       | 97%       |
-| TF-IDF (Baseline)  | 72%      | 87%      | **92%**   | 95%       | **100%**  |
-| BGE-M3-Dense       | 59%      | 82%      | 90%       | **97%**   | **100%**  |
-| Nomic-v1.5         | 59%      | 80%      | **92%**   | 95%       | **100%**  |
+---
+
+## 4. Reranker Evaluation
+
+以 BGE-M3 (Hybrid) 召回 20 筆相關文章 (Recall@20=100%) 進行重排序。
+
+### 4.1 Cross-Encoder (Standard BERT)
+
+| Model | Time(s) | Recall@1 | Recall@2 | Recall@3 | Recall@4 | Recall@5 | MRR@10 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **GTE-Reranker-Base** | 33.7 | **0.9231** | **0.9487** | **0.9487** | **0.9487** | 0.9487 | **0.9744** |
+| **Jina-Reranker-v2** | **21.3** | 0.8974 | 0.8974 | **0.9487** | **0.9487** | **0.9744** | 0.9496 |
+| **MxBai-Rerank-Large** | 44.8 | 0.7436 | 0.8462 | 0.8462 | 0.8718 | 0.8974 | 0.8391 |
+| **BGE-Reranker-v2-m3** | 26.7 | 0.7180 | 0.7436 | 0.7949 | 0.8462 | 0.8718 | 0.8050 |
+
+### 4.2 Multi-Vector & LLM-based
+
+| Model | Type | Time(s) | Recall@1 | Recall@2 | Recall@3 | Recall@4 | Recall@5 | MRR@10 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **BGE-Reranker-v2-Gemma** | LLM | 608.6 | 0.7949 | 0.8205 | 0.8205 | 0.8205 | 0.8205 | 0.8491 |
+| **MiniCPM-Layerwise** | LLM | 187.1 | 0.7692 | 0.8205 | 0.8205 | 0.8205 | 0.8462 | 0.8506 |
+| **BGE-M3 (ColBERT)** | Multi-Vec| 44.0 | 0.6923 | 0.7692 | 0.8718 | 0.8718 | 0.9231 | 0.8073 |
+
+> **Result**:
+> **GTE-Reranker-Base** 完勝 (Recall@1 92.3%, MRR 0.974)。
+> LLM Reranker 太慢效果又差
+---
+
+## 5. Final Architecture
+
+1. **Retrieval**: **BGE-M3 (Hybrid, Alpha=0.8)**
+   - 確保 Top-10 包含所有正確答案。
+2. **Reranking**: **GTE-Reranker-Base**
+   - 將正確答案推至 Top-1 (準確率 92.3%)。
