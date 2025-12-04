@@ -1,18 +1,3 @@
-## 0. Generation Baseline
-**Config**: TF-IDF (Recall@5: 87%) + gemini-2.5-flash-lite
-
-| Metric | Text Only | Text + Image |
-| :--- | :---: | :---: |
-| **Value Accuracy** | **58%** | 42% |
-| **Ref ID Jaccard** | 34% | **76%** |
-| **Weighted Score** | **58%** | 52% |
-
-> **Note**: Text Only 數值準確率較佳；Text+Image 在找對 Ref ID 上有顯著優勢。兩者輸出內容差異不大，分數落差多為格式問題。
-
-> 應該是flash-lite太笨了，給表格也看不出來，或是TF-IDF不夠好，沒有給到正確表格頁面
-
----
-
 ## 1. Retrieval Model Selection
 
 ### 1.1 Sparse Retrieval (Keyword-based)
@@ -109,6 +94,7 @@ Optimizing k1 (saturation) and b (length normalization).
 | **TF-IDF (Opt)** | ngram=(1,2), sublinear=True | **0.870** | 0.950 | 0.950 | 0.970 | 0.970 |
 | **BM25 (Opt)** | k1=1.2, b=0.75 | 0.770 | 0.920 | 0.920 | 0.950 | 0.970 |
 > **Decision**: **BGE-M3 (Hybrid)**。
+
 > 雖然 TF-IDF 首位準，但 BGE-M3 在 Recall@10=100% ，鬼神級數據。
 
 ---
@@ -134,8 +120,8 @@ Optimizing k1 (saturation) and b (length normalization).
 | **MiniCPM-Layerwise** | LLM | 187.1 | 0.7692 | 0.8205 | 0.8205 | 0.8205 | 0.8462 | 0.8506 |
 | **BGE-M3 (ColBERT)** | Multi-Vec| 44.0 | 0.6923 | 0.7692 | 0.8718 | 0.8718 | 0.9231 | 0.8073 |
 
-> **Result**:
 > **GTE-Reranker-Base** 完勝 (Recall@1 92.3%, MRR 0.974)。
+
 > LLM Reranker 太慢效果又差
 ---
 
@@ -145,3 +131,30 @@ Optimizing k1 (saturation) and b (length normalization).
    - 確保 Top-10 包含所有正確答案。
 2. **Reranking**: **GTE-Reranker-Base**
    - 將正確答案推至 Top-1 (準確率 92.3%)。
+
+---
+
+## 6. Generator Selection
+**Config**: BGE-M3 (Hybrid) + GTE-Reranker-Base
+
+### 6.1 Gemini 2.5-flash-lite
+| Metric | Text Only | Text + Image |
+| :--- | :---: | :---: |
+| **Value Accuracy** | **59%** | 56% |
+| **Ref ID Jaccard** | 59% | **78%** |
+| **Weighted Score** | 62% | **63%** |
+
+> Text Only 數值準確率較佳；Text+Image 在找對 Ref ID 上有顯著優勢
+
+> Text + Image 數值準確度低可能是flash-lite太笨，無法有效擷取圖表內容
+
+### 6.2 Gemini 2.5-pro
+| Metric | Text Only | Text + Image |
+| :--- | :---: | :---: |
+| **Value Accuracy** | 82% | **90%** |
+| **Ref ID Jaccard** | 83% | **91%** |
+| **Weighted Score** | 83% | **91%** |
+
+> 2.5 pro 明顯較flash-lite更強
+
+> 2.5 pro已可有效讀取圖片內容，比只讀純文字好上不少
